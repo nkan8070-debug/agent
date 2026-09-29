@@ -1,0 +1,31 @@
+{
+  "name": "shiksha-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "prebuild": "expo prebuild",
+    "doctor": "expo doctor",
+    "build:apk": "eas build --platform android --profile preview"
+  },
+  "dependencies": {
+    "@config-plugins/react-native-webrtc": "15.0.2",
+    "@livekit/react-native": "2.12.0",
+    "@livekit/react-native-expo-plugin": "1.0.2",
+    "@livekit/react-native-webrtc": "144.1.2",
+    "expo": "^57.0.9",
+    "expo-dev-client": "~57.0.19",
+    "expo-splash-screen": "~57.0.9",
+    "expo-status-bar": "~57.0.1",
+    "livekit-client": "^2.19.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-svg": "15.15.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  }
+}
